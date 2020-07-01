@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        link(rel="stylesheet", href="css/index.css")
+        script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js")
+        script(src="script.js")
+        title week2
+    body
+        header.container.position-relative
+            nav.navbar.navbar-expand-lg.navbar-light
+                a.navbar-brand.logo.mr-5(href='#') Blumen fünf
+                .collapse.navbar-collapse
+                    ul.navbar-nav
+                        li.nav-item.mr-5
+                            a.nav-link(href='#') Product
+                        li.nav-item.mr-5
+                            a.nav-link(href='#') Blog
+                        li.nav-item.mr-5
+                            a.nav-link(href='#') Contact
+        section.jumbotron
+            h1.display-3 Hello
+            p.lead This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+            hr.my-4
+            p It uses utility classes for typography and spacing to space content out within the larger container.
+            
+        main.container#productList.d-flex
+            .card.m-3.shadow
+                img(src="https://images.unsplash.com/photo-1588857756087-281f8cceb865?ixlib=rb-1.2.1&auto=format&fit=crop&w=662&q=80", alt="")
+                .card-body
+                    h5.card-title 很秋蘋果紅茶
+                    p.card-text 加入新鮮蘋果切片的台茶18號，這樣的溫度你說豪不豪？
+                    a(href="").btn.btn-primary Order now
+            .card.m-3
+                img(src="https://images.unsplash.com/photo-1588857756087-281f8cceb865?ixlib=rb-1.2.1&auto=format&fit=crop&w=662&q=80", alt="")
+                .card-body
+                    h5.card-title 很秋蘋果紅茶
+                    p.card-text 加入新鮮蘋果切片的台茶18號，這樣的溫度你說豪不豪？
+                    a(href="").btn.btn-primary Order now
+            .card.m-3
+                img(src="https://images.unsplash.com/photo-1588857756087-281f8cceb865?ixlib=rb-1.2.1&auto=format&fit=crop&w=662&q=80", alt="")
+                .card-body
+                    h5.card-title 很秋蘋果紅茶
+                    p.card-text 加入新鮮蘋果切片的台茶18號，這樣的溫度你說豪不豪？
+                    a(href="").btn.btn-primary Order now
+
+
+
+            
